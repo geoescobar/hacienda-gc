@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: "Oxygen", sans-serif;
+}
+
+body {
+  background-color: #ecebf3 !important;
+  color: #252323 !important;
+}
+
+.hero {
+  height: 600px;
+  width: 100vw;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./assets/bathroom.png");
+  overflow: hidden;
+  background-size: 100%;
+  z-index: -100;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.services-hero {
+  height: 600px;
+  width: 100vw;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://www.bellweatherdesignbuild.com/hubfs/Photos-0004_(3).jpg");
+  overflow: hidden;
+  background-size: 100%;
+  z-index: -100;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.contact-hero {
+  height: 600px;
+  width: 100vw;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://www.snopes.com/tachyon/2020/10/Featured-Image-Templates95.png");
+  overflow: hidden;
+  background-size: 100%;
+  z-index: -100;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.about {
+  padding: 100px;
+}
+.reviews {
+  padding: 100px;
+}
+.projects {
+  padding: 100px;
+}
+
+.about-btn {
+  padding: 10px;
+  border-radius: 50px;
+  border-color: none;
+  color: #252323;
+}
+
+.hero-content {
+  color: #f5f1ed;
+  margin: 100px 0 !important;
+  justify-content: center;
+}
+
+.hero-content a {
+  color: #252323;
+  text-decoration: none;
+}
+
+.hero-content a:hover {
+  color: #252323;
+  text-decoration: underline;
+}
+
+.recent-project-img {
+  height: 25% !important;
+  width: 25% !important;
+}
+
+.parallax-one {
+  background-color: azure;
+  height: 100%;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+
+.card-container {
+  border-style: solid;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px 10px;
+}
+
+.form-group {
+  margin: 100px 0 !important;
+}
+
+.formz-text {
+  padding: 5px 20px !important;
+  width: 100% !important;
+}
+
+.submit-btn {
+  padding: 5px 10px;
+  border-radius: 50px;
+  border-color: none;
+  color: #252323;
+}
+
+.service-cards {
+  padding: 10px !important;
+}
